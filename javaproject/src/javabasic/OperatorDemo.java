@@ -54,4 +54,5 @@ public class OperatorDemo {
 		System.out.println(res);
 		System.out.println("-------");
 	}
+	//assignment operator: +=,-=,*=,/=,==
 }
