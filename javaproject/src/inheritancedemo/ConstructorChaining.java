@@ -17,7 +17,7 @@ class SuperClass{
 		System.out.println("One arg SuperClass Constructor");
 	}
 }
-class ChildClass extends SuperClass{
+public class ChildClass extends SuperClass{
 	ChildClass(){
 		this(9);
 		System.out.println("No arg ChildClass Constructor");
