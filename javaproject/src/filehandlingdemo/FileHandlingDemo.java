@@ -40,7 +40,7 @@ static void fileInputStreamDemo()  {
 
 static void fileOutputStreamDemo() {
 	try {
-	File file=new File("/Users/manasajoshi/Desktop/myfile");
+		File file=new File("/Users/manasajoshi/Desktop/myfile");
 		FileOutputStream fos=new FileOutputStream(file);
 		System.out.println("File opened");
 			String data = "from the program";
